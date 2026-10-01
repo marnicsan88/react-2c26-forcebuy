@@ -1,0 +1,51 @@
+button {
+    border-radius: 11px;
+    padding:       0.8rem 0.5rem;
+    color:         #F5F7FA;
+    display:       inline-block;
+    font:          normal bold 1rem "Inter", sans-serif;
+    text-align:    center;
+    transition:     0.2s ease;
+    border:         0;
+    background: linear-gradient(135deg, #6B7378, #252B2F);
+    
+}
+
+button:hover {
+    background:     linear-gradient(135deg, #858D91, #343B3F);
+    border-color:   #C5CBD0;
+    box-shadow:     0 12px rgba(197, 203, 208, 0.3),
+}
+
+button.azul{
+    background:    #38bdf8;
+    background:    linear-gradient(#38bdf8, #3d85c6);
+}
+
+button.azul:hover{
+    background:    #3d85c6;
+    background:    linear-gradient(#3d85c6, #38bdf8);
+    box-shadow:     0 0 12px rgba(56, 189, 248, 0.5);
+}
+
+button.verde{
+    background:    #4caf50;
+    background:    linear-gradient(#4caf50, #38761d);
+}
+
+button.verde:hover{
+    background:    #38761d;
+    background:    linear-gradient(#38761d, #4caf50);
+    box-shadow:    0 4px 10px rgba(76, 175, 80, 0.35);
+}
+
+button.rojo{
+    background:    #e05252;
+    background:    linear-gradient(#e05252, #990000);
+}
+
+button.rojo:hover{
+    background:    #990000;
+    background:    linear-gradient(#990000, #e05252);
+    box-shadow:    0 4px 10px rgba(224, 82, 82, 0.35);
+}

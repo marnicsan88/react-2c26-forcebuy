@@ -1,0 +1,5 @@
+[
+    { "id": 1, "nombre": "Kael Veyron", "tarea": "CEO & Maestro de operaciones", "mail": "kael.veyron@forcebuy.com", "foto": "https://i.ibb.co/gZF3rcVw/image.png", "estilo": "leader"},
+    { "id": 2, "nombre": "Lyra Solen", "tarea": "Directora de Tecnología" , "mail": "laherrera@forcebuy.com", "foto": "https://i.ibb.co/LdNb6dst/image.png", "estilo": "beskar" },
+    { "id": 3, "nombre": "Darian Korr", "tarea": "Director de Estrategia", "mail": "darian.korr@forcebuy.com", "foto": "https://i.ibb.co/ZtLtvFJ/image.png", "estilo": "sith" }
+]

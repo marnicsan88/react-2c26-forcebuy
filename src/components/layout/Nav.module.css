@@ -1,0 +1,26 @@
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: clamp(1rem, 2vw, 1rem); 
+  padding: 0;
+  margin: 0;
+}
+
+.nav ul a{
+    color: #9CA8BA;
+    text-decoration: none;
+    padding: 0.5rem
+    
+}
+
+.nav ul a:hover {
+  color: #38BDF8;
+  background-color: #111827;
+}
+
+.nav ul a.active {
+  color: #F5F7FA;
+}

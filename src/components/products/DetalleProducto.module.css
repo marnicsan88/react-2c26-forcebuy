@@ -1,0 +1,106 @@
+.container{
+  padding-left: 5rem;
+  padding-right: 5rem;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.container a{
+  color: #9CA8BA;
+  text-decoration: none;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 0.8rem;
+  border: 1px solid #9CA8BA;
+}
+
+.container a:hover {
+  color: #38BDF8;
+  background-color: #080B12;
+  text-decoration: underline;
+}
+
+.container a:active {
+  color: #F5F7FA;
+}
+
+.detailContainer{
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2.5rem;
+}
+
+.imgContainer{
+  border: 1px solid #38BDF8;
+  border-radius: 11px;
+  overflow: hidden;
+  width: clamp(300px, 35%, 450px);
+  aspect-ratio: 1/1;
+  display: flex;
+  align-items: center;
+}
+
+.imgContainer img{
+  width: 100%;
+  object-fit: contain;
+}
+
+.descriptionContainer{
+  flex: 1;
+  text-align: left;
+  box-sizing: border-box;
+  padding:0.5rem;
+  padding-top:0;
+  line-height: ;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap:1rem;
+}
+
+p.detalle{
+  margin-bottom: auto;
+  font-weight: bold;
+  color: #38BDF8;
+}
+
+p.descripcion{
+  font-size: 0.8rem;
+}
+
+.nombre{
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.precio{
+  font-family: 'Anta', sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+p.stock{
+  font-size: 0.8rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 0 1rem;
+  }
+
+  .imgContainer {
+    width: min(100%, 400px);
+    align-self: center;
+  }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+  .imgContainer {
+    width: min(45vw, 300px);
+  }
+}

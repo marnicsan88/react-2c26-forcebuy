@@ -1,0 +1,55 @@
+
+.card{
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  flex-direction: column;
+  height: clamp(12rem, 12vw, 25rem); 
+  width: clamp(15rem, 15vw, 15rem); 
+  box-shadow:
+        rgba(255, 255, 255, 0.2) 1px 1px inset,
+        rgba(255, 255, 255, 0.1) -1px -1px inset,
+        rgba(0, 0, 0, 0.15) 1px 3px 24px -1px;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #1A2233;
+  background: linear-gradient(135deg, #263B5C, #1A2233);
+  box-sizing: border-box;
+}
+
+.card p{
+  text-align: center;
+  min-height: 1rem;
+  width: 100%;
+  font-family: "Anta", sans-serif;
+}
+
+.card .imgContainer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgContainer img{
+  width: clamp(5rem, 5vw, 5rem); 
+  border-radius: 50%;
+  height: auto;
+}
+
+.card .tarea{
+  font-size: 0.8rem;
+}
+
+.card.leader{
+  background: linear-gradient(135deg, #526A86, #20283A);
+}
+
+.card.beskar{
+  background: linear-gradient(135deg, #596166, #1E2327);
+}
+
+.card.sith{
+  background: linear-gradient(135deg, #7A1F2B, #160608);
+}

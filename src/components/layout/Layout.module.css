@@ -1,0 +1,14 @@
+
+.layout{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  background-color: #111827;
+  padding: 1vw;
+  font-family: "Inter", sans-serif;
+  display: flex;
+}

@@ -1,0 +1,72 @@
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-family: "Anta", sans-serif;
+  color: #9CA8BA;
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+}
+
+.footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: clamp(1rem, 2vw, 1rem); 
+  padding: 0;
+  margin: 1rem 0 0 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer a{
+  font-size: 0.8rem;
+  color: #9CA8BA;
+}
+
+.footer .newsletter{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 3rem;
+  gap:0.5rem;
+  background-color: #000;
+  border-top: 1px solid #9CA8BA;
+  border-bottom: 1px solid #9CA8BA;
+  font-size: 0.9rem;
+  padding: 1rem;
+  box-sizing: border-box;
+  margin-bottom: 2rem;
+}
+
+.newsletter input{
+  font-family: 'Anta', sans-serif;
+  font-size: 0.9rem;
+  outline: none;
+  border:1px solid transparent;
+  background-color: #263B5C;
+  color: #fff;
+  padding: 1rem;
+  box-sizing: border-box;
+  width: 15rem;
+}
+
+.newsletter input:hover{
+  border: 1px solid #9CA8BA;
+}
+
+.newsletter a{
+  padding: 0.8rem;
+  box-sizing: border-box;
+  border: 1px solid #9CA8BA;
+  text-decoration: none;
+}
+
+.newsletter a:hover{
+  color: #38BDF8;
+  background-color: #111827;
+}

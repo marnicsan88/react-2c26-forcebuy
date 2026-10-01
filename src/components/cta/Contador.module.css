@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    align-items: stretch;
+}
+
+.inputCantidad{
+    width: clamp(3rem, 8vw, 4rem);
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0.5rem 0rem;
+    font: normal 1rem "Inter", sans-serif;
+    background-color: #fff;
+    border: none;
+}
+
+button.agregar {
+    border-radius: 0 11px 11px 0;
+    padding:       0.75rem 0.5rem;
+    font:          normal bold 1rem "Inter", sans-serif;
+    border: 1px solid;
+}
+
+button.remover {
+    border-radius: 11px 0 0 11px;
+    padding:       0.75rem 0.5rem;
+    font:          normal bold 1rem "Inter", sans-serif;
+    border: 1px solid;
+}

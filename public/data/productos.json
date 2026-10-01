@@ -1,0 +1,18 @@
+[
+    { "id": 1, "nombre": "Sable de Luz Estandar", "stock": 100, "valor": 100000, "foto": "https://i.ibb.co/6cRrK5Sf/force-Buy-standard.webp" },
+    { "id": 2, "nombre": "Sable de Luz Curvo", "stock": 50, "valor": 175000, "foto": "https://i.ibb.co/4RGsmvK2/force-Buy-curvo.webp" },
+    { "id": 3, "nombre": "Sable de Luz Doble Hoja", "stock": 10, "valor": 200000, "foto": "https://i.ibb.co/qLy96JH2/force-Buy-doble.webp" },
+    { "id": 4, "nombre": "Sable de Luz Shoto", "stock": 150, "valor": 125000, "foto": "https://i.ibb.co/h18MKN6L/force-Buy-shoto.webp" },
+    { "id": 5, "nombre": "Sable de Luz Doble Hoja Giratoria", "stock": 7, "valor": 250000, "foto": "https://i.ibb.co/609X70hs/force-Buy-giratorio.webp" },
+    { "id": 6, "nombre": "Sable de Luz Cruz", "stock": 15, "valor": 300000, "foto": "https://i.ibb.co/SXjjqqFN/force-Buy-cruz.webp" },
+    { "id": 7, "nombre": "Sable Oscuro de Luz", "stock": 1, "valor": 500000, "foto": "https://i.ibb.co/rRV2TCfx/force-Buy-dark.webp"},
+    { "id": 8, "nombre": "Sable de Luz Pistola", "stock": 300, "valor": 150000, "foto": "https://i.ibb.co/9krf488M/force-Buy-gun.webp"}
+]
+
+
+
+
+
+
+
+
