@@ -1,5 +1,5 @@
 import styles from "./Header.module.css"
-import logo from "../../assets/forceBuy.svg";
+import logo from "../../assets/forcebuy.svg";
 import Nav from "./Nav"
 import { Link } from "react-router-dom"
 
