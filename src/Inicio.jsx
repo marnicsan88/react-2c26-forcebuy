@@ -1,7 +1,7 @@
 const Inicio = () => {
   return (
     <div className="landing-banner" >
-      <img src="https://i.ibb.co/PGH9cxQQ/landing-3.webp" alt="Landing Banner" fetchPriority="high"/>
+      <img src="https://i.ibb.co/fYc1JmXN/landing-6.webp" alt="Landing Banner" fetchPriority="high"/>
     </div>
   )
 }
